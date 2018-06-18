@@ -1,0 +1,4 @@
+[id^="zk_err"] {
+    display: none !important;
+    z-index: -1000;
+}

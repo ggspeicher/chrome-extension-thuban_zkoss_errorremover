@@ -1,0 +1,11 @@
+{
+    "name": "ZKOSS error remover",
+    "version": "1.0",
+    "description": "Removes Thuban-web zkoss error popups",
+    "manifest_version": 2,
+    "content_scripts": [
+        {"matches": ["http://*/thuban-web/*"], "run_at": "document_end", "js": ["bakground.js"] , "css":["background.css"]},
+        {"matches": ["https://*/thuban-web/*"], "run_at": "document_end", "js": ["bakground.js"] , "css":["background.css"]}
+    ],
+    "author": "Guillermo Speicher"
+  }
